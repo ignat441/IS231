@@ -20,4 +20,8 @@ class OrderDataTest extends TestCase
         $this->assertSame( true, 
                            $this->obj->validate($this->data) );
     }
+        $this->assertSame( true, 
+                           $this->obj->validate($this->data) );
+    }
+}
 }
